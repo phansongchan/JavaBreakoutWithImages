@@ -127,7 +127,9 @@ class GamePanel extends JPanel implements ActionListener, KeyListener
             g.setFont( new Font( "serif", Font.PLAIN, 40 ) );
             g.drawString( "GAME CLEAR", 20, 60 );
         }
-
+    
+    
+        // GAME OVER
         if ( isLose ) {
             g.setColor( Color.RED );
             g.setFont( new Font( "serif", Font.PLAIN, 40 ) );
